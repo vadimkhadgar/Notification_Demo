@@ -40,6 +40,8 @@ class MainActivity : AppCompatActivity() {
 
     }
 
+    // For testing visual git in android studio
+
     private fun sendOnChannel1() {
         val title: String = editTextTitle!!.text.toString()
         val message: String = editTextMessage!!.text.toString()
@@ -65,10 +67,3 @@ class MainActivity : AppCompatActivity() {
     }
 }
 
-/*
-.setStyle(
-                NotificationCompat.BigPictureStyle()
-                    .bigPicture(picture)
-                    .bigLargeIcon(null)
-            )
- */
